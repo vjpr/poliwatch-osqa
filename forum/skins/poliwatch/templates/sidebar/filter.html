@@ -1,0 +1,59 @@
+{% load i18n %}
+<div class="boxC">
+    <h2>{% trans "Find Promises" %}</h2>
+    <div class="body">
+        <ul class="filter">
+            <li>
+                <div>
+                    Politician
+                    <div>
+                        <input style="width:70%;float:left;">
+                        </input>
+                    </div>
+                    <div style="display:block;">
+                        <a href="#">Lookup</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    Election
+                    <div>
+                        <select style="width:70%;">
+                        </input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    Party
+                    <div>
+                        <select style="width:70%;">
+                        </input>
+                    </div>
+                </div>
+            </li>
+            <li>
+                Electorate/Constituency
+            </li>
+            <li>
+                Subject
+            </li>
+            <li>
+                <div class="status-box">
+                Status
+                <div class="status">
+                <select multiple="multiple" style="width:150px">
+                    <option>Promise Kept</option>
+                    <option>Compromise</option>
+                    <option>Promise Broken</option>
+                    <option>Stalled</option>
+                    <option>In the works</option>
+                    <option>Not yet rated</option>
+                    <option>All</option>
+                </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

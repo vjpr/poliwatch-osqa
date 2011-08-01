@@ -1,0 +1,13 @@
+.intro
+  %h1 Welcome to Poliwatch!
+  %br
+  %p Find out what Australian politicians have promised and whether they delivered
+  %p We collect promises made by all Australian politicians and update them as progress is made.
+.scorecard
+  %h3 {{ politician }}'s Scorecard
+  %ul.scorecard
+    {% for a,b in info %}
+    %li
+      {{ a }}
+      %span.scorecard-count {{ b }}
+    {% endfor %}

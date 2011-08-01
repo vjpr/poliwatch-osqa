@@ -1,0 +1,278 @@
+{% extends "base.html" %}
+<!-- template ask.html -->
+{% load i18n extra_tags extra_filters %}
+{% block title %}{% spaceless %}{% trans "Ask a question" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+        <script type='text/javascript' src='{% media  "/media/js/wmd/showdown.js" %}'></script>
+		<!--<script type='text/javascript' src='{% media  "/media/js/wmd/moowmd.js" %}'></script>-->
+		<script type='text/javascript' src='{% media  "/media/js/wmd/jquery.wmd.min.js" %}'></script>
+		<script type='text/javascript' src='{% media  "/media/js/jquery-ui.min.js" %}'></script>
+		<script type='text/javascript' src='{% media  "/media/js/wmd/wmd.js" %}'></script>
+        <link rel="stylesheet" type="text/css" href="{% media  "/media/style/ui-lightness/jquery-ui-1.7.3.custom.css" %}" />
+		<link rel="stylesheet" type="text/css" href="{% media  "/media/js/wmd/wmd.css" %}" />		
+        <script type="text/javascript">
+            $(function(){
+                $('.vDateField').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    constrainInput: 'true',
+                    maxDate: ' 0',
+                })
+            });
+        </script>
+		<script type="text/html" id="question-summary-template">
+            <div class="answer-summary">
+                <a href="%URL%"><div class="answer-votes">%SCORE%</div></a>
+                <div class="answer-link">
+                    <a class="question-hyperlink" href="%URL%" title="%SUMMARY%">%TITLE%</a>
+                </div>
+            </div>
+        </script>				
+		<script type="text/javascript">
+           	setup_wmd({
+                "input": "editor",
+                "button_bar": "wmd-button-bar",
+				"buttons": true,
+                "preview": "previewer",
+            });
+			setup_wmd({
+                "input": "sources",
+				"button_bar": "wmd-button-bar-sources",				
+				"buttons": true,
+				"preview": "previewer-sources",
+            });				
+        </script>		
+        <script type="text/javascript">
+        $(function(){
+            //set current module button style
+            $("#nav_ask").attr('className',"on");
+            $('editor').TextAreaResizer();
+
+            //toggle preview of editor
+			//todo remove copy-paste
+            var display = true;
+            var txt = "[{% trans "hide preview" %}]";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function(){
+                txt = display ? "[{% trans "show preview" %}]" : "[{% trans "hide preview" %}]";
+                display = !display;
+                $('#previewer').toggle();
+				$('#previewer-sources').toggle();
+                $('#pre-collapse').text(txt);
+            });
+
+            //Tags autocomplete action
+        	$("#id_tags").autocomplete("/matching_tags/", {
+                minChars: 1,
+        		matchContains: true,
+                max: 20,
+                multiple: true,
+                multipleSeparator: " ",
+
+        		/*
+        		formatItem: function(row, i, max) {
+        			return row.n + " ("+ row.c +")";
+                },
+                formatResult: function(row, i, max){
+                    return row.n;
+                }
+                */
+
+                formatItem: function(row, i, max, value) {
+                    return row[1] + " (" + row[2] + ")";
+                },
+
+                formatResult: function(row, i, max, value){
+                    return row[1];
+                }
+
+            });
+
+            //Maker autocomplete action
+            $("#id_maker").autocomplete("/matching_makers/", {
+                minChars: 1,
+                matchContains: true,
+                max: 20,
+                multiple: true,
+                multipleSeparator: ",",
+                mustMatch: true,
+                selectFirst: true,
+
+                formatItem: function(row, i, max, value) {
+                    return row[1] + " (" + row[2] + ", " + row[3] + ", " + row[4] + ")";
+                },
+
+                formatResult: function(row, i, max, value){
+                    return row[1];
+                },
+
+             });
+
+        });
+
+        function submitClicked(e, f) {
+            if(!(browserTester('chrome') || browserTester('safari'))) {
+                $("input.submit")[0].disabled=true;
+            }
+            window.removeEventListener('beforeunload', beforeUnload, true);
+            if (f) {
+                f.submit();
+            }
+        }
+
+        function beforeUnload(e) {
+            if($("input#id_title")[0].value != "" || $("textarea#editor")[0].value != "" || $("input#id_tags")[0].value != "") {
+                return yourWorkWillBeLost(e);
+            }
+        }
+        window.addEventListener('beforeunload', beforeUnload, true);
+
+        var related_questions_url = "{% url related_questions %}";
+        </script>
+        <script src="{% media "/media/js/osqa.ask.js" %}" type="text/javascript"></script>
+{% endblock %}
+
+{% block content %}
+<div id="main-bar" class="headNormal">
+	{% trans "ask a question" %}
+</div>
+<div id="main-body" class="ask-body">
+    <div id="askform">
+        <form id="fmask" action="" method="post" accept-charset="utf-8">
+			{% if not request.user.is_authenticated %}
+            <div class="message">
+                <span class="strong big">{% trans "You are welcome to start submitting your question anonymously." %}</span>
+                <p>{% blocktrans %}
+                    After submiting your question, you will be redirected to the login/signup page.
+                    Your question will be saved in the current session and will be published after you login with your existing account,
+                    or signup for a new account{% endblocktrans %}{% if "ask"|contained_in:settings.REQUIRE_EMAIL_VALIDATION_TO %}
+                    {% trans "and validate your email." %}{% else %}.{% endif %}</p>
+            </div>
+            {% else %}
+                {% if not request.user.email_valid_and_can_ask %}
+                    <div class="message">
+                        {% blocktrans %}Remember, your question will not be published until you validate your email.{% endblocktrans %}
+                        <a href="{% url send_validation_email %}">{% trans "Send me a validation link." %}</a>
+                    </div>
+                {% endif %}
+			{% endif %}
+            <div class="form-item">
+                <label for="id_title" ><strong>{{ form.title.label_tag }}:</strong></label> <span class="form-error"></span><br/>
+                {{ form.title }} {{ form.title.errors }}
+                <div class="title-desc">
+                    {{ form.title.help_text }}
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="id_title" ><strong>{{ form.maker.label_tag }}:</strong></label> <span class="form-error"></span><br/>
+                {{ form.maker }} {{ form.maker.errors }}
+                <div class="title-desc">
+                    {{ form.maker.help_text }}
+                </div>
+            </div>
+            <div id="ask-related-questions"></div>
+            <div class="form-item">
+                <div id="wmd-button-bar" class="wmd-button-bar"></div>						
+				{{ form.text }} {{ form.text.errors }}				
+				 <label for="sources" ><strong>{{ form.sources.label_tag }}:</strong></label>
+				 <div class="title-desc">
+                    {{ form.sources.help_text }}
+                </div>
+				<div id="wmd-button-bar-sources" class="wmd-button-bar"></div>
+				{{ form.sources }} {{form.sources.errors }}
+                <div class="preview-toggle">
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <span id="pre-collapse" title="{% trans "Toggle the real time Markdown editor preview" %}">{% trans "toggle preview" %}</span>
+                            </td>
+                            {% if settings.WIKI_ON %}
+                            <td class="tright">
+                                {{ form.wiki }} <span class="help_text" title="{{form.wiki.help_text}}">{{ form.wiki.label_tag }} </span>
+                            </td>
+                            {% endif %}
+                        </tr>
+
+                    </table>
+                </div>
+                <div id="previewer" class="wmd-preview"></div>				
+				<div id="previewer-sources" class="wmd-preview"></div>
+                <span class="form-error"></span>
+            </div>
+            <div class="form-item">
+                <strong>{{ form.tags.label_tag }}:</strong> {% trans "(required)" %} <span class="form-error"></span><br/>
+                {{ form.tags }}  {{ form.tags.errors }}
+            </div>
+			<p class="title-desc">
+				{{ form.tags.help_text }}
+			</p>
+            <div class="form-item">
+                <strong>{{ form.date_promised.label_tag }}:</strong> {% trans "(required)" %} <span class="form-error"></span><br/>
+                {{ form.date_promised }}  {{ form.date_promised.errors }}
+            </div>
+            <p class="title-desc">
+                {{ form.date_promised.help_text }}
+            </p>
+            {% if not request.user.is_authenticated %}
+            <input name="ask" type="button" value="{% trans "Login/signup to post your question" %}" class="submit" onclick="submitClicked(event, this.form)"/>
+			{% else %}
+            <input name="ask" type="button" value="{% trans "Ask your question" %}" class="submit" onclick="submitClicked(event, this.form)"/>
+            {% endif %}
+        </form>
+    </div>
+</div>
+
+<div id="dialog-form" title="Add source" style="display:none">
+	<p class="validateTips">Below is a quick website Harvard-style reference template.</p>	
+	<form>
+	<fieldset>
+		<label for="name">Author</label>
+		<input type="text" name="author" id="author" class="text ui-widget-content ui-corner-all" />
+		<label for="date">Date</label>
+		<input type="text" name="date" id="date" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="sponsor">Sponsor of website</label>
+		<input type="text" name="sponsor" id="sponsor" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Date accessed</label>
+		<input type="text" name="accessed" id="accessed" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Link</label>
+		<input type="text" name="link" id="link" value="" class="text ui-widget-content ui-corner-all" />
+		<input type="hidden" name="isCancel" id="isCancel" value="false"/>	
+	</fieldset>
+	</form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// initialize jquery ui dialog
+	$("#dialog-form").dialog({
+		autoOpen: false,
+		height: 550,
+		width: 350,
+		modal: true,
+		buttons: {
+			Cancel: function() {				
+				$("#isCancel").val('true');
+				$(this).dialog("close");				
+			},
+			Add: function() {
+				$("#isCancel").val('false');								
+				$(this).dialog("close");
+			}
+		},
+		close: function() {							
+		}
+	});				
+});
+</script>
+
+{% endblock %}
+
+{% block sidebar %}
+{% include "question_edit_tips.html" %}
+{% endblock %}
+
+{% block endjs %}
+{% endblock %}
+<!-- end template ask.html -->
+

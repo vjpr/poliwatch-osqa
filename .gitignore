@@ -1,0 +1,8 @@
+./cache/*
+*.pyc
+*~
+.settings
+./log/
+.idea/workspace.xml
+.hg/
+forum/skins/default/*

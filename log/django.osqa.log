@@ -1,0 +1,1912 @@
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:09:52,371 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C4F550>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:09:58,888 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C4F550>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:17:17,697 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:17:33,696 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:17:38,242 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\models\action.py TIME: 2011-01-30 21:17:57,532 MSG: action.py:trigger_hooks:195 Error in NodeEditAction hook: 'NoneType' object has no attribute 'currentStatusId'
+c:\workspace-aptana\poliwatch\forum\models\action.py TIME: 2011-01-30 21:17:57,533 MSG: action.py:trigger_hooks:196 Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\models\action.py", line 192, in trigger_hooks
+    hook(action=action, new=new)
+  File "C:\workspace-aptana\poliwatch\forum\subscriptions.py", line 154, in question_status
+    question.status = question.currentStatusId
+AttributeError: 'NoneType' object has no attribute 'currentStatusId'
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:17:58,063 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:18:03,000 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:33:29,908 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03C2A590>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:33:48,898 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:33:53,624 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:34:06,338 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:34:10,930 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:34:16,267 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:35:17,760 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:35:23,717 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:35:45,059 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:42:48,928 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:42:56,581 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:43:06,302 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:43:58,941 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03AE7030>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:47:16,838 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:47:21,167 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:47:45,375 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:47:55,114 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:48:05,312 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:48:19,266 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:49:18,164 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:49:35,707 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:49:46,897 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:49:59,401 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:50:11,164 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:50:21,821 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:50:42,884 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:50:53,016 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:51:04,506 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:51:18,042 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:51:35,918 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:51:52,494 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:52:15,982 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:53:30,380 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:53:57,430 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:54:16,897 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:54:37,736 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:55:07,428 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:55:18,803 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:55:32,605 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:55:41,961 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:56:05,608 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:56:18,144 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:56:29,783 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:58:37,375 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:58:54,885 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 21:59:04,328 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:00:01,096 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:00:24,947 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:15:35,582 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:16:11,137 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03CE87F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:17:15,542 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:17:47,170 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:18:23,746 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:19:01,644 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:19:18,634 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:19:24,930 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:20:32,371 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:21:11,927 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:21:55,517 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:31:38,188 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x03497A70>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:35:03,296 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:35:37,928 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:35:51,138 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:36:26,592 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:36:52,674 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:39:04,201 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:39:39,743 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:39:49,678 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:39:55,005 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:40:13,694 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:40:21,819 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:40:27,341 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:40:35,726 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:40:53,898 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:41:14,151 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:41:14,890 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:41:24,920 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:41:32,173 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:41:53,012 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:42:12,328 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:42:19,717 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:42:48,148 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:42:52,546 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:43:04,657 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:43:12,618 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:43:22,992 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:43:28,857 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:43:42,877 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:00,825 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:19,351 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:39,365 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:46,295 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:49,644 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:44:59,223 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:45:13,657 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:45:39,407 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:45:58,142 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:46:05,303 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:46:10,617 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:46:22,970 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:46:57,115 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:49:02,767 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:49:36,026 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:49:49,335 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:49:58,809 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:50:10,855 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:50:29,247 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:51:02,882 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:51:08,532 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:51:13,556 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:53:45,072 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:53:52,206 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:54:21,789 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:54:28,391 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:54:42,352 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:54:53,240 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:54:58,395 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:56:27,128 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:56:37,930 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:56:43,061 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 22:56:54,367 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 23:02:01,915 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-01-30 23:06:38,392 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x0355B0F0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:17:47,776 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:18:19,084 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:33:10,727 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:33:40,802 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:34:29,688 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+
+c:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py TIME: 2011-03-07 21:54:03,579 MSG: ui_registry.py:render:61 Exception Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found. updating ui loop context <forum.modules.ui_objects.PageTab object at 0x036E6AF0>: 
+Traceback (most recent call last):
+  File "C:\workspace-aptana\poliwatch\forum\templatetags\ui_registry.py", line 56, in render
+    ui_object.update_context(context)
+  File "C:\workspace-aptana\poliwatch\forum\modules\ui_objects.py", line 141, in update_context
+    tab_url=self.url_getter()
+  File "C:\workspace-aptana\poliwatch\forum\views\decorators.py", line 36, in <lambda>
+    ui.PageTab(tab, tab_title, lambda: reverse(func.__name__), weight=weight))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 350, in reverse
+    *args, **kwargs)))
+  File "c:\Python26\lib\site-packages\django-1.2.1-py2.6.egg\django\core\urlresolvers.py", line 296, in reverse
+    "arguments '%s' not found." % (lookup_view_s, args, kwargs))
+NoReverseMatch: Reverse for 'subscribe' with arguments '()' and keyword arguments '{}' not found.
+

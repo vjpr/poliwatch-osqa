@@ -1,0 +1,50 @@
+<!-- template header.html -->
+{% load extra_tags ui_registry i18n extra_filters markup %}
+<div id='headerWrapper'>
+  <div id='searchBar'>
+    <form action='{% url search %}' method='get'>
+      <div class='top'>
+        <span class='logo'>
+          <span>Poliwatch</span>
+        </span>
+        <span class='search-box'>
+          <input autocomplete='on' class='searchInput' id='keywords' name='q' placeholder='Search Promises, Topics and People' type='text' value='{{ keywords }}' />
+          <input class='searchBtn' name='Submit' type='submit' value="{% trans 'Search' %}" />
+        </span>
+        <span id='nav'>
+          {% loopregistry page_top_tabs %}{% spaceless %}
+          <a id="nav_{{ tab_name }}"{% ifequal tab tab_name %} class="on"{% endifequal %} href="{{ tab_url }}" >{{ tab_title }}
+          {% endspaceless %}{% endloopregistry %}
+          <a class='special' href='{% url ask %}' id='nav_ask'>{% trans "ask a question" %}</a>
+        </span>
+      </div>
+    </form>
+  </div>
+</div>
+<div id='searchWrapper'>
+  <div id='search-container'></div>
+</div>
+<div id='roof'>
+  <div class='options'>
+    <input checked='checked' id='type-question' name='t' type='radio' value='question' />
+    <label for='type-question'>{% trans "questions" %}</label>
+    <input id='type-tag' name='t' type='radio' value='tag' />
+    <label for='type-tag'>{% trans "tags" %}</label>
+    <input id='type-user' name='t' type='radio' value='user' />
+    <label for='type-user'>{% trans "users" %}</label>
+  </div>
+  <!-- #logo -->
+  <!-- %a{:href => "{% url index %}"} -->
+  <!-- <img src="{{ settings.APP_LOGO }}" title="{% trans "back to home page" %}" -->
+  <!-- alt="{{settings.APP_TITLE}} logo"/> -->
+  <div id='top'>
+    {% loadregistry header_links %}{% endloadregistry %}
+  </div>
+</div>
+<div class='clear'></div>
+{% if settings.USE_ANNOUNCEMENT_BAR|or_preview:request %}
+<div id='announcement'>
+  {{ settings.ANNOUNCEMENT_BAR|or_preview:request|markdown:"settingsparser" }}
+</div>
+{% endif %}
+<!-- end template header.html -->

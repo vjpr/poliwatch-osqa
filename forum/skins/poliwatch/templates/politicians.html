@@ -1,0 +1,76 @@
+{% extends "base_content.html" %}
+<!-- tags.html -->
+{% load i18n %}
+{% load extra_tags %}
+{% load humanize %}
+{% block title %}{% spaceless %}{% trans "Tag list" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+       <script type="text/javascript">
+       /*<![CDATA[*/
+        $().ready(function(){
+            $("#ipSearchTag").focus();
+
+            var orderby = "{{ tab_id }}";
+            if(orderby != "used" && orderby != "name")
+                orderby = "used";
+            $("#sort_" + orderby).attr('className',"on");
+            $("#type-tag").attr('checked',true);
+
+            Hilite.exact = false;
+            Hilite.elementid = "searchtags";
+            Hilite.debug_referrer = location.href;
+        });
+        /*]]>*/
+        </script>
+{% endblock %}
+{% block content %}
+<!-- Tabs -->
+<div class="tabBar">
+    <div class="headQuestions">{% trans "Politicians" %}</div>
+    {{ politicians.paginator.sort_tabs }}
+</div>
+<div>
+
+</div>
+<div id="searchtags">
+<p>
+{% if stag %}
+    {% trans "All tags matching query" %} '<span class="darkred"><strong>{{ stag }}</strong></span>':
+{% endif %}
+{% if not politicians.paginator.count %}
+    <span>{% trans "Nothing found" %}</span>
+{% endif %}
+</p>
+{% if politicians.paginator.count %}
+<div style="display:table" class="tagsList tags">
+<div style="display:table-header-group">
+<div style="display: table-cell">Name</div>
+<div style="display: table-cell">Promises</div>
+<div style="display: table-cell">Party</div>
+<div style="display: table-cell">Constituency</div>
+<div style="display: table-cell">State</div>
+</div>
+{% for politician in politicians.paginator.page %}
+   <div style="display: table-row">
+    <a href="{% url tag_questions tag|urlencode %}" title="{% trans "see questions tagged" %}'{{ politician.get_name }}'{% trans "using tags" %}" rel="tag">
+        {{ politician.get_name }}
+    </a>&nbsp;
+    <div style="display: table-cell" class="tag-number">&#215; {{ politician.promise_count|intcomma }}</div>
+    <div style="display: table-cell">{{ politician.partymember_set.get.party.name }}</div>
+    <div style="display: table-cell">{{ politician.contestparticipant_set.get.contest.name.name }}</div>
+    <div style="display: table-cell">{{ politician.contestparticipant_set.get.contest.name.region }}</div>
+    <div style="display: table-cell">{{ politician.partymember_set.get.partymembertitle_set.get.name }}</div>
+
+    </div>
+{% endfor %}
+</div>
+{% endif %}
+</div>
+
+{% endblock %}
+{% block tail %}
+<div class="pager">
+    {{ tags.paginator.page_numbers }}
+</div>
+{% endblock %}
+<!-- end tags.html -->

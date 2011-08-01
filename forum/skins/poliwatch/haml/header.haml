@@ -1,0 +1,45 @@
+/ template header.html
+{% load extra_tags ui_registry i18n extra_filters markup %}
+
+#headerWrapper
+  #searchBar
+    %form{:action => "{% url search %}", :method => "get"}
+      .top
+        %span.logo
+          %span Poliwatch
+        %span.search-box
+          %input#keywords.searchInput{:name => "q", :type => "text", :value => "{{ keywords }}",
+            :placeholder => "Search Promises, Topics and People", :autocomplete => "on"}/
+          %input.searchBtn(type="submit" name="Submit" value="{% trans 'Search' %}")
+        %span#nav
+          {% loopregistry page_top_tabs %}{% spaceless %}
+          <a id="nav_{{ tab_name }}"{% ifequal tab tab_name %} class="on"{% endifequal %} href="{{ tab_url }}" >{{ tab_title }}
+          {% endspaceless %}{% endloopregistry %}
+          %a#nav_ask.special{:href => "{% url ask %}"} {% trans "ask a question" %}
+
+#searchWrapper
+  #search-container
+
+#roof
+  .options
+    %input#type-question{:checked => "checked", :name => "t", :type => "radio", :value => "question"}/
+    %label{:for => "type-question"} {% trans "questions" %}
+    %input#type-tag{:name => "t", :type => "radio", :value => "tag"}/
+    %label{:for => "type-tag"} {% trans "tags" %}
+    %input#type-user{:name => "t", :type => "radio", :value => "user"}/
+    %label{:for => "type-user"} {% trans "users" %}
+
+  /#logo
+  /  %a{:href => "{% url index %}"}
+  /    <img src="{{ settings.APP_LOGO }}" title="{% trans "back to home page" %}"
+  /    alt="{{settings.APP_TITLE}} logo"/>
+  #top
+    {% loadregistry header_links %}{% endloadregistry %}
+
+.clear
+
+{% if settings.USE_ANNOUNCEMENT_BAR|or_preview:request %}
+#announcement
+  {{ settings.ANNOUNCEMENT_BAR|or_preview:request|markdown:"settingsparser" }}
+{% endif %}
+/ end template header.html

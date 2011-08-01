@@ -1,0 +1,17 @@
+<div class='intro'>
+  <h1>Welcome to Poliwatch!</h1>
+  <br />
+  <p>Find out what Australian politicians have promised and whether they delivered</p>
+  <p>We collect promises made by all Australian politicians and update them as progress is made.</p>
+</div>
+<div class='scorecard'>
+  <h3>{{ politician }}'s Scorecard</h3>
+  <ul class='scorecard'>
+    {% for a,b in info %}
+    <li>
+      {{ a }}
+      <span class='scorecard-count'>{{ b }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

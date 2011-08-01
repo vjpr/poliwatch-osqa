@@ -1,0 +1,352 @@
+/* line 3, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+body {
+  font-family: Arial !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+h2, h1 {
+  font-family: "Segoe WP SemiLight";
+  font-weight: normal !important;
+}
+
+/* line 14, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+h1 {
+  font-size: 300%;
+  text-shadow: #aaaaaa 0px 0px 1px;
+}
+
+/* line 18, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+a {
+  color: brown;
+}
+
+/* line 21, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav {
+  float: left;
+}
+/* line 22, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav a {
+  border: none;
+}
+
+/* line 26, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#sources {
+  font-size: 100%;
+  line-height: 18px;
+  min-height: 50px;
+  width: 100%;
+}
+
+/* line 34, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+input.text {
+  margin-bottom: 12px;
+  width: 95%;
+  padding: 0.4em;
+  display: block;
+}
+
+/* line 40, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+a.post-vote, .favorite-mark, a.accept-answer {
+  display: block;
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+/* line 46, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.post-update-status {
+  display: inline-block;
+  float: right;
+  margin-bottom: 5px;
+  width: 250px;
+}
+
+/* line 52, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.post-score {
+  padding: 10px 0px 10px;
+}
+
+/* line 56, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+a.post-vote.up.on.question {
+  background: url("../images/vote-arrow-up-on_2.png") no-repeat scroll center center transparent;
+}
+/* line 58, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+a.post-vote.up.question {
+  background: url("../images/vote-arrow-up_2.png") no-repeat scroll center center transparent;
+}
+/* line 59, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+a.post-vote.up.question:hover {
+  background: url("../images/vote-arrow-up-on_2.png") no-repeat scroll center center transparent;
+}
+
+/* line 63, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.sources-title {
+  font-weight: bold;
+}
+
+/* line 66, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.answer-headline {
+  font-size: 140%;
+  line-height: 110%;
+  font-weight: bold;
+  /*border-bottom:1px solid #777777; */
+  margin-bottom: 12px;
+  padding: 3px 3px 3px 0;
+  text-align: left;
+}
+
+/* make unaccepted answers grayed out */
+/* line 77, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.answer {
+  color: gray;
+}
+
+/* line 80, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.accepted-answer {
+  color: black;
+}
+
+/* line 83, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.question-sources {
+  font-size: 13px;
+  line-height: 20px;
+  min-height: 50px;
+}
+
+/* line 88, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.short-summary .counts {
+  /*margin-top: 14px; */
+}
+
+/* line 91, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#logo {
+  left: 345px;
+  position: absolute;
+  width: 270px;
+  padding-top: 10px;
+}
+
+/* line 97, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav {
+  float: right;
+  margin: 90px 0px 0px 0px;
+  width: 480px;
+}
+
+/* line 102, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.promise_kept {
+  background-image: url(../images/status/status_0000_pk.jpg);
+}
+
+/* line 105, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.compromise {
+  background-image: url(../images/status/status_0001_co.jpg);
+}
+
+/* line 108, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.promise_broken {
+  background-image: url(../images/status/status_0002_pb.jpg);
+}
+
+/* line 111, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.stalled {
+  background-image: url(../images/status/status_0003_st.jpg);
+}
+
+/* line 114, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.in_the_works {
+  background-image: url(../images/status/status_0004_it.jpg);
+}
+
+/* line 117, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.not_yet_rated {
+  background-image: url(../images/status/status_0005_no.jpg);
+}
+
+/* line 120, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#status-box {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* line 129, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+ul.filter li, ul.scorecard li {
+  line-height: 2.5em;
+  list-style: none;
+  border-bottom: dotted 1px black;
+}
+/* line 133, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+ul.filter {
+  margin-left: 0px;
+}
+/* line 134, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+ul.filter li {
+  padding-bottom: 10px;
+}
+/* line 137, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+ul.scorecard {
+  margin-left: 0px;
+}
+
+/* line 140, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+div.scorecard {
+  width: 200px;
+  float: right;
+  padding: 10px;
+}
+
+/* line 145, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.scorecard-count {
+  float: right;
+}
+
+/* line 148, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+div.intro {
+  float: left;
+  width: 450px;
+}
+
+/* line 152, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.status-box {
+  height: 150px;
+}
+
+/* line 155, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav a {
+  background-color: transparent;
+  padding: 0 6px 3px;
+}
+
+/* line 159, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav a.on {
+  height: 24px;
+  background-color: gray;
+  border-color: gray;
+}
+
+/* line 164, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#nav {
+  margin-top: 0px;
+}
+
+/* line 169, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#roof {
+  display: none;
+}
+
+/* line 172, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#searchBar {
+  padding: 0 0 0 10%;
+  text-align: left;
+  height: 56px;
+  background-color: #a9a9a9;
+  padding: 0;
+  width: 990px;
+  border: none;
+}
+
+/* line 181, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.headNormal {
+  border-bottom: 1px dotted #777777;
+}
+
+/* line 184, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#headerWrapper {
+  background-color: #a9a9a9;
+}
+
+/* line 187, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#searchWrapper {
+  background-color: #eeeeee;
+}
+
+/* line 190, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+input#keywords.searchInput {
+  width: 300px;
+}
+
+/* line 193, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+span.search-box {
+  background-color: black;
+  padding: 7px 3px 10px 4px;
+}
+
+/* line 197, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+span.logo {
+  font-family: "Segoe WP";
+  font-size: 150%;
+  font-weight: bold;
+  text-shadow: #aaaaaa 0px 0px 1px;
+  color: white;
+  background-color: #a52a2a;
+  vertical-align: middle;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 4px;
+}
+
+/* line 210, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.top {
+  padding-top: 27px;
+}
+
+/* line 213, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.boxC {
+  background-color: transparent;
+}
+
+/* line 216, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.short-summary h2 a {
+  color: brown;
+}
+
+/* line 221, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.ui-autocomplete-category {
+  font-weight: bold;
+  padding: 0.2em 0.4em;
+  margin: 0.8em 0 0.2em;
+  line-height: 1.5;
+}
+
+/* line 227, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+ul.ui-autocomplete {
+  background-color: white;
+  width: 500px !important;
+  list-style-type: none;
+  margin-left: 16px;
+  border: 1px solid #cccccc;
+}
+
+/* line 235, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+#search-container {
+  background-color: #eeeeee;
+  padding-left: 168px;
+  width: 990px;
+}
+
+/* line 241, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.ui-state-hover {
+  background-color: #dfeaf4;
+}
+
+/* line 244, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.ui-menu .ui-menu-item a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+  line-height: 1.5;
+  zoom: 1;
+  cursor: default;
+}
+
+/* line 252, c:/workspace/poliwatch/forum/skins/poliwatch/sass/poliwatch.sass */
+.question-body p {
+  font-size: 18px;
+}

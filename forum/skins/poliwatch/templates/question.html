@@ -1,0 +1,433 @@
+{% extends "base.html" %}
+<!-- question.html -->
+{% load node_tags %}
+{% load extra_tags %}
+{% load extra_filters %}
+{% load general_sidebar_tags %}
+{% load smart_if %}
+{% load humanize %}
+{% load i18n %}
+{% load cache %}
+{% block metadescription %}{{question.summary}}{% endblock %}
+{% block metakeywords %}{{question.tagname_meta_generator}}{% endblock %}
+{% block title %}{% spaceless %}{{ question.headline }}{% endspaceless %}{% endblock %}
+{% block forejs %}
+        <link rel="canonical" href="{{settings.APP_URL}}{{question.get_absolute_url}}" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ question.get_absolute_url }}?type=rss">
+        {% if not question.nis.closed %}
+        <script type='text/javascript' src='{% media  "/media/js/wmd/showdown.js" %}'></script>
+        <script type='text/javascript' src='{% media  "/media/js/jquery-ui.min.js" %}'></script>
+		<script type='text/javascript' src='{% media  "/media/js/wmd/wmd.js" %}'></script>
+		<link rel="stylesheet" type="text/css" href="{% media  "/media/style/ui-lightness/jquery-ui-1.7.3.custom.css" %}" />
+        <link rel="stylesheet" type="text/css" href="{% media  "/media/js/wmd/wmd.css" %}" />
+        {% endif %}
+        <script type="text/javascript">
+            $(function(){
+                $('.vDateField').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    constrainInput: 'true',
+                    maxDate: ' 0',
+                })
+            });
+        </script>
+		<script type="text/javascript">
+           	setup_wmd({
+                "input": "editor",
+                "button_bar": "wmd-button-bar",
+				"buttons": true,
+                "preview": "previewer",
+            });
+			setup_wmd({
+                "input": "sources",
+				"button_bar": "wmd-button-bar-sources",				
+				"buttons": true,
+				"preview": "previewer-sources",
+            });				
+        </script>
+        <script type="text/javascript">
+        $().ready(function(){
+            $("#nav_questions").attr('className',"on");
+            var answer_sort_tab = "{{ tab_id }}";
+
+            if (answer_sort_tab) {
+                $("#" + answer_sort_tab).attr('className',"on");
+            }
+
+            $('#editor').TextAreaResizer();
+
+            //toggle preview of editor
+            var display = true;
+            var txt = "[{% trans "hide preview" %}]";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function(){
+                txt = display ? "[{% trans "show preview" %}]" : "[{% trans "hide preview" %}]";
+                display = !display;
+                $('#previewer').toggle();
+				$('#previewer-sources').toggle();
+                $('#pre-collapse').text(txt);
+            });
+        });
+
+        function submitClicked(e, f) {
+            if(!(browserTester('chrome') || browserTester('safari'))) {
+                $("input.submit")[0].disabled=true;
+            }
+            window.removeEventListener('beforeunload', beforeUnload, true);
+            if (f) {
+                f.submit();
+            }
+        }
+
+        function beforeUnload(e) {
+
+            if($("textarea#editor")[0].value != "") {
+                return yourWorkWillBeLost(e);
+            }
+
+            var commentBoxes = $("textarea.commentBox");
+            for(var index = 0; index < commentBoxes.length; index++) {
+                if(commentBoxes[index].value != "") {
+                    return yourWorkWillBeLost(e);
+                }
+            }
+        }
+        window.addEventListener('beforeunload', beforeUnload, true);
+        </script>
+        <noscript>
+            <style>
+                .comment.not_top_scorer {
+                    display: block;
+                }
+                .comment-form-container {
+                    display: block;
+                }
+                .div.comment-tools {
+                    display: none;
+                }
+            </style>
+        </noscript>
+{% endblock %}
+        
+{% block content %}
+<div class="headNormal">
+    <h1><a href="{{ question.get_absolute_url }}">{{ question.headline }}</a></h1>
+</div>
+<div id="main-body" class="">
+    <div id="askform">
+            <table style="width:100%;" id="question-table" {% post_classes question %}>
+                <tr>
+                    <td style="width:30px;vertical-align:top">
+                        <div class="vote-buttons">
+                            {% vote_buttons question request.user %}
+                            {% favorite_mark question request.user %}
+                        </div>
+                    </td>
+                    <td>
+                        <div id="item-right">
+                            <div class="question-body">
+                                {{ question.html|safe }}
+                            </div>
+                            <p class="sources-title">Sources:</p>
+                            <div class="question-sources">
+                                {{ question.htmlSources|safe }}
+                            </div>
+                            <p><strong>Date Promised: </strong>{{ question.datePromised|date:"d-m-Y" }}</p>
+                            <div>
+                                <p>{{ question.current_status }}</p>
+                                <div id="status-box" class="{{ question.currentStatusId }}"></div></div>
+                            </div>
+                            <div id="question-tags" class="tags-container tags">
+                                {% for tag in question.tagname_list %}
+                                    <a href="{% url tag_questions tag|urlencode %}" class="post-tag"
+                                        title="{% blocktrans with tag as tagname %}see questions tagged '{{ tagname }}'{% endblocktrans %}" rel="tag">{{ tag }}</a>
+                                {% endfor %}
+                            </div>
+                            <div id="question-controls" class="post-controls">
+                                {% post_controls question request.user %}
+                                {% wiki_symbol request.user question %}
+                            </div>
+                            <div class="post-update-info-container">
+                                {% contributors_info question %}
+                            </div>
+                            {% comments question request.user %}
+                        </div>
+                        
+                    </td>
+                </tr>
+            </table>
+            {% if question.nis.closed %}
+            <div class="question-status" style="margin-bottom:15px">
+            <h3>
+                {% blocktrans with question.nstate.closed.extra as close_reason %}The question has been closed for the following reason "{{ close_reason }}" by{% endblocktrans %}
+                <a href="{{ question.nstate.closed.by.get_profile_url }}">{{ question.nstate.closed.by.username }}</a>
+                 {% diff_date question.nstate.closed.at %}
+            </h3>
+            </div>
+            {% endif %}
+            {% if answers %}
+                <hr/>
+                <div class="tabBar">
+                    <a name="sort-top"></a>
+                    <div class="headQuestions">
+                    {% blocktrans count answers.paginator.count as counter %}One Answer:{% plural %}{{counter}} Answers:{% endblocktrans %}
+                    </div>
+                    {{ answers.paginator.sort_tabs }}
+                </div>
+                {{ answers.paginator.page_numbers }}
+  
+                {% for answer in answers.paginator.page %}
+                    <a name="{{ answer.id }}"></a>
+                    <div id="answer-container-{{ answer.id }}" class="answer {% post_classes answer %}">
+                        <table style="width:100%;">
+                            <tr>
+                                <td style="width:30px;vertical-align:top">
+                                    <div class="vote-buttons">
+                                        {% vote_buttons answer request.user %}
+                                        {% accept_button answer request.user %}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="item-right">
+                                    	<div class="answer-headline">
+                                    		{{ answer.title }}	
+										</div>
+                                        <div class="answer-body">
+                                            {{ answer.html|safe }}
+                                        </div>
+										<p class="sources-title">Sources:</p>
+										<div class="question-sources">
+			                                {{ answer.htmlSources|safe }}
+			                            </div>
+                                        <p><strong>Date Updated: </strong>{{ answer.datePromised|date:"d-m-Y" }}</p>
+                                        <div class="answer-controls post-controls">
+                                            {% post_controls answer request.user %}
+                                            {% wiki_symbol request.user answer %}
+                                        </div>
+                                        <div class="post-update-info-container">
+                                            {% contributors_info answer %}
+                                        </div>
+										<div class="post-update-status-container">
+                                            <div class="post-update-status">
+                                            	{{ answer.get_status_display }}
+                                            </div>
+                                        </div>
+                                        {% comments answer request.user %}
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                {% endfor %}
+                <div class="paginator-container-left">
+                    {{ answers.paginator.page_numbers }}
+                </div>
+            {% endif %}
+        <form id="fmanswer" action="{% url answer question.id %}" method="post">
+            <div style="clear:both">
+            </div>
+            
+            {% if not question.closed %}
+                <div style="padding:10px 0 0 0;">
+                    {% spaceless %}
+                    <div class="headNormal">
+                        {% if answers %}
+                            {% trans "Your update" %}
+                        {% else %}
+                            {% trans "Please provide a status update for this answer" %}
+                        {% endif %}
+                    </div>
+                    {% endspaceless %}
+                </div>
+                {% comment %}
+                {% if not request.user.is_authenticated %}
+                    <div class="message">{% trans "You can update anonymously and then login." %}</div>
+                {% else %}
+                    <p class="message">
+                        {% ifequal request.user question.author  %}
+                            {% trans "Answer your own question only to give an answer." %}
+                        {% else %}
+                            {% trans "Please only give an answer, no discussions." %}
+                        {% endifequal %}
+                        {% if not request.user.email_valid_and_can_answer %}
+                            {% blocktrans %}Remember, your update will not be published until you validate your email.{% endblocktrans %}
+                            <a href="{% url send_validation_email %}">{% trans "Send me a validation link." %}</a>
+                        {% endif %}
+                    </p>
+                {% endif %}
+                {% endcomment %}
+
+                <div class="form-item">
+                    <label for="id_title">
+                        <strong>{{ answer.title.label_tag }}:</strong>
+                    </label>
+                    <span class="form-error"></span>
+                    <br/>
+                    {{ answer.title }} {{ answer.title.errors }}
+                    <div class="title-desc">
+                        {{ answer.title.help_text }}
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="id_status">
+                        <strong>{{ answer.status.label_tag }}:</strong>
+                    </label>
+                    <span class="form-error"></span>
+                    <br/>
+                    {{ answer.status }} {{ answer.status.errors }}
+                    <div class="title-desc">
+                        {{ answer.status.help_text }}
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="id_date_updated">
+                        <strong>{{ answer.date_promised.label_tag }}:</strong>
+                    </label>
+                    <span class="form-error"></span>
+                    <br/>
+                    {{ answer.date_promised }} {{ answer.date_promised.errors }}
+                    <div class="title-desc">
+                        {{ answer.date_promised.help_text }}
+                    </div>
+                </div>
+
+                <div id="description" class="" >
+                    <div id="wmd-button-bar" class="wmd-button-bar"></div>
+                    {{ answer.text }}
+					<div id="wmd-button-bar-sources" class="wmd-button-bar"></div>
+					{{ answer.sources }} {{answer.sources.errors }}
+                    <div class="preview-toggle">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <span id="pre-collapse" 
+                                        title="{% trans "Toggle the real time Markdown editor preview" %}">
+                                            {% trans "toggle preview" %}
+                                    </span>
+                                </td>
+                                {% if settings.WIKI_ON %}
+                                <td style="text-align:right;">
+                                    {{ answer.wiki }} 
+                                    <span style="font-weight:normal;cursor:help" 
+                                        title="{{answer.wiki.help_text}}">
+                                            {{ answer.wiki.label_tag }} 
+                                    </span>
+                                </td>
+                                {% endif %}
+                            </tr>
+                        
+                        </table>  
+                    </div>
+                    {{ answer.text.errors }}
+                    <div id="previewer" class="wmd-preview"></div>
+					<div id="previewer-sources" class="wmd-preview"></div>                    
+                </div>
+                <p><span class="form-error"></span></p>
+                <input type="button"
+                    {% if user.is_anonymous %}
+                        value="{% trans "Login/Signup to Post Your Update" %}" 
+                    {% else %}
+                        {% if user == question.author %}
+                        value="{% trans "Answer Your Own Question" %}" 
+                        {% else %}
+                        value="{% trans "Provide a promise update" %}" 
+                        {% endif %}
+                    {% endif %}
+                    class="submit" style="float:left" onclick="submitClicked(event, this.form)"/>
+            {% endif %}
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div class="boxC" id="subscription_box">
+    {% include "subscription_status.html" %}
+</div>
+{% sidebar_upper %}
+{% cache 60 questions_tags settings.APP_URL question.id %}
+<div class="boxC">
+    <p>
+		{% trans "Question tags" %}:
+    </p>
+    <p class="tags" >
+        {% for tag in question.tags.all %}
+        	<a href="{% url tag_questions tag.name|urlencode %}" 
+			title="{% trans "see questions tagged"%}'{{tag.name}}'{% trans "using tags" %}" 
+			rel="tag">{{ tag.name }}</a> <span class="tag-number">&#215;{{ tag.used_count|intcomma }}</span><br/>
+        {% endfor %}
+    </p>
+    <p>
+        {% trans "promises added" %}: <strong title="{{ question.added_at }}">{% diff_date question.added_at %}</strong>
+    </p>
+    <p> 
+     	{% trans "promise was seen" %}: <strong>{{ question.view_count|intcomma }} {% trans "times" %}</strong>
+    </p>
+    <p> 
+        {% trans "last updated" %}: <strong title="{{ question.last_activity_at }}">{% diff_date question.last_activity_at %}</strong>
+    </p>
+</div>
+{% endcache %}
+{% sidebar_lower %}
+<div class="boxC">
+    <h3 class="subtitle">{% trans "Related questions" %}</h3>
+    <div class="questions-related">
+
+        {% for question in similar_questions %}
+        <p>
+            <a href="{{ question.get_absolute_url }}">{{ question.headline }}</a>
+        </p>
+        {% endfor %}
+
+    </div>
+</div>
+
+<div id="dialog-form" title="Add source" style="display:none">
+	<p class="validateTips">Below is a quick website Harvard-style reference template.</p>	
+	<form>
+	<fieldset>
+		<label for="name">Author</label>
+		<input type="text" name="author" id="author" class="text ui-widget-content ui-corner-all" />
+		<label for="date">Date</label>
+		<input type="text" name="date" id="date" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="sponsor">Sponsor of website</label>
+		<input type="text" name="sponsor" id="sponsor" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Date accessed</label>
+		<input type="text" name="accessed" id="accessed" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Link</label>
+		<input type="text" name="link" id="link" value="" class="text ui-widget-content ui-corner-all" />
+		<input type="hidden" name="isCancel" id="isCancel" value="false"/>	
+	</fieldset>
+	</form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// initialize jquery ui dialog
+	$("#dialog-form").dialog({
+		autoOpen: false,
+		height: 550,
+		width: 350,
+		modal: true,
+		buttons: {
+			Cancel: function() {				
+				$("#isCancel").val('true');
+				$(this).dialog("close");				
+			},
+			Add: function() {
+				$("#isCancel").val('false');								
+				$(this).dialog("close");
+			}
+		},
+		close: function() {							
+		}
+	});				
+});
+</script>
+
+{% endblock %}
+
+{% block endjs %}
+{% endblock %}
+<!-- end question.html -->

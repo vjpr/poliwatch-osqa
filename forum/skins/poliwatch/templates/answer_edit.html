@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+<!-- template answer_edit.html -->
+{% load i18n %}
+{% load extra_tags %}
+{% block title %}{% spaceless %}{% trans "Edit answer" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+        <script type='text/javascript' src='{% media  "/media/js/wmd/showdown.js" %}'></script>
+		<script type='text/javascript' src='{% media  "/media/js/jquery-ui.min.js" %}'></script>
+        <script type='text/javascript' src='{% media  "/media/js/wmd/wmd.js" %}'></script>
+		<link rel="stylesheet" type="text/css" href="{% media  "/media/style/ui-lightness/jquery-ui-1.7.3.custom.css" %}" />
+        <link rel="stylesheet" type="text/css" href="{% media  "/media/js/wmd/wmd.css" %}" />
+        <script type="text/javascript">
+            $(function(){
+                $('.vDateField').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    constrainInput: 'true',
+                    maxDate: ' 0',
+                })
+            });
+        </script>
+        <script type="text/javascript">
+           	setup_wmd({
+                "input": "editor",
+                "button_bar": "wmd-button-bar",
+				"buttons": true,
+                "preview": "previewer",
+            });
+			setup_wmd({
+                "input": "sources",
+				"button_bar": "wmd-button-bar-sources",				
+				"buttons": true,
+				"preview": "previewer-sources",
+            });				
+        </script>		
+		<script type="text/javascript">
+        
+        $().ready(function(){
+            $("#nav_questions").attr('className',"on");
+            $('#editor').TextAreaResizer();
+
+
+            //toggle preview of editor
+            var display = true;
+            var txt = "{% trans "hide preview" %}";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function(){
+                txt = display ? "{% trans "show preview" %}" : "{% trans "hide preview" %}";
+                display = !display;
+                $('#previewer').toggle();
+				$('#previewer-sources').toggle();
+                $('#pre-collapse').text(txt);
+            });
+
+
+            $('#id_revision').unbind().change(function(){
+                $("#select_revision").click();
+            });
+
+
+            answer = $("textarea#editor")[0].value;
+        });
+
+
+        function submitClicked(e, f) {
+            if(!(browserTester('chrome') || browserTester('safari'))) {
+                $("input.submit")[0].disabled=true;
+                $("input.submit")[1].disabled=true;
+            }
+            window.removeEventListener('beforeunload', beforeUnload, true);
+            if (f) {
+                f.submit();
+            }
+        }
+
+        function beforeUnload(e) {
+            if($("textarea#editor")[0].value != answer) {
+                 return yourWorkWillBeLost(e);
+            }
+        }
+        window.addEventListener('beforeunload', beforeUnload, true);
+
+        var answer = "";
+        </script>
+{% endblock %}
+        
+{% block content %}
+<div id="main-bar" class="headNormal">
+    {% trans "Edit answer" %} [<a href="{{ answer.question.get_absolute_url }}#{{ answer.id }}">{% trans "back" %}</a>]
+</div>
+<div id="main-body" class="ask-body">
+    <div id="askform">
+        <form id="fmedit" action="{% url edit_answer answer.id %}" method="post" >
+            <label for="id_revision" ><strong>{% trans "revision" %}:</strong></label> <br/> 
+            {% if revision_form.revision.errors %}{{ revision_form.revision.errors.as_ul }}{% endif %}
+            <div>
+            {{ revision_form.revision }} <input type="submit" style="display:none" id="select_revision" name="select_revision" value="{% trans "select revision" %}">
+            </div>
+			<div class="form-item">
+                <label for="id_title" ><strong>{{ form.title.label_tag }}:</strong></label> <span class="form-error"></span><br/> 
+                {{ form.title }} {{ form.title.errors }}  
+                <div class="title-desc">
+                    {{ form.title.help_text }}
+                </div>     
+            </div>
+            
+            <div class="form-item">
+                <label for="id_status" ><strong>{{ form.status.label_tag }}:</strong></label> <span class="form-error"></span><br/>
+                {{ form.status }} {{ form.status.errors }}
+                <div class="title-desc">
+                    {{ form.status.help_text }}
+                </div>
+            </div>
+
+            <!-- Date Promised -->
+            <div class="form-item">
+                <strong>{{ form.date_promised.label_tag }}:</strong> {% trans "(required)" %} <span class="form-error"></span><br/>
+                {{ form.date_promised }}  {{ form.date_promised.errors }}
+            </div>
+
+            <div class="form-item">
+                <div id="wmd-button-bar" class="wmd-button-bar"></div>
+                {{ form.text }}
+                <span class="form-error"></span>
+				<label for="sources" ><strong>{{ form.sources.label_tag }}:</strong></label>
+				 <div class="title-desc">
+                    {{ form.sources.help_text }}
+                </div>
+				<div id="wmd-button-bar-sources" class="wmd-button-bar"></div>
+				{{ form.sources }} {{form.sources.errors }}
+                <div class="preview-toggle"><span id="pre-collapse" 
+					title="{% trans "Toggle the real time Markdown editor preview" %}">{% trans "toggle preview" %}</span>
+				{% if settings.WIKI_ON %}
+                    <div style="float:right;">
+                        {{ form.wiki }} <span style="color:#000;cursor:help" title="{{form.wiki.help_text}}">{{ form.wiki.label_tag }} </span>
+                    </div>
+                    {% endif %}
+                </div>
+                <div id="previewer" class="wmd-preview"></div>
+				<div id="previewer-sources" class="wmd-preview"></div>
+            </div>
+            
+            <strong>{{ form.summary.label_tag }}</strong> <br/>
+            {{ form.summary }}  {{ form.summary.errors }}
+            <div class="title-desc">
+                {{ form.summary.help_text }}
+            </div>
+            <input type="button" value="{% trans "Save edit" %}" class="submit" onclick="submitClicked(event, this.form)" />
+            <input type="button" value="{% trans "Cancel" %}" class="submit" onclick="submitClicked(event, this.form);history.back(-1);" />
+        </form>
+    </div>
+</div>
+
+<div id="dialog-form" title="Add source" style="display:none">
+	<p class="validateTips">Below is a quick website Harvard-style reference template.</p>	
+	<form>
+	<fieldset>
+		<label for="name">Author</label>
+		<input type="text" name="author" id="author" class="text ui-widget-content ui-corner-all" />
+		<label for="date">Date</label>
+		<input type="text" name="date" id="date" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="sponsor">Sponsor of website</label>
+		<input type="text" name="sponsor" id="sponsor" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Date accessed</label>
+		<input type="text" name="accessed" id="accessed" value="" class="text ui-widget-content ui-corner-all" />
+		<label for="accessed">Link</label>
+		<input type="text" name="link" id="link" value="" class="text ui-widget-content ui-corner-all" />
+		<input type="hidden" name="isCancel" id="isCancel" value="false"/>	
+	</fieldset>
+	</form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// initialize jquery ui dialog
+	$("#dialog-form").dialog({
+		autoOpen: false,
+		height: 550,
+		width: 350,
+		modal: true,
+		buttons: {
+			Cancel: function() {				
+				$("#isCancel").val('true');
+				$(this).dialog("close");				
+			},
+			Add: function() {
+				$("#isCancel").val('false');								
+				$(this).dialog("close");
+			}
+		},
+		close: function() {							
+		}
+	});				
+});
+</script>
+
+{% endblock %}
+
+{% block sidebar %}
+{% include "answer_edit_tips.html" %}
+{% endblock %}
+
+{% block endjs %}
+{% endblock %}
+<!-- end template answer_edit.html -->

@@ -1,0 +1,253 @@
+@import "compass/css3/text-shadow"
+
+body
+  //font-family: "Segoe WP SemiLight" !important
+  font-family: Arial !important
+  margin: 0
+  padding: 0
+
+h2, h1
+  font-family: "Segoe WP SemiLight"
+  font-weight: normal !important
+
+
+h1
+  font-size: 300%
+  +single-text-shadow
+
+a
+  color: brown
+
+#nav
+  a
+    border: none
+  float: left
+
+#sources
+  font-size: 100%
+  line-height: 18px
+  min-height: 50px
+  width: 100%
+
+div.dialog-row
+
+input.text
+  margin-bottom: 12px
+  width: 95%
+  padding: .4em
+  display: block
+
+a.post-vote, .favorite-mark, a.accept-answer
+  display: block
+  height: 48px
+  position: relative
+  width: 48px
+
+.post-update-status
+  display: inline-block
+  float: right
+  margin-bottom: 5px
+  width: 250px
+
+.post-score
+  padding: 10px 0px 10px
+
+a.post-vote.up
+  &.on.question
+    background: url("../images/vote-arrow-up-on_2.png") no-repeat scroll center center transparent
+  &.question
+    &:hover
+      background: url("../images/vote-arrow-up-on_2.png") no-repeat scroll center center transparent
+    background: url("../images/vote-arrow-up_2.png") no-repeat scroll center center transparent
+
+.sources-title
+  font-weight: bold
+
+.answer-headline
+  font-size: 140%
+  line-height: 110%
+  font-weight: bold
+  /*border-bottom:1px solid #777777;
+  margin-bottom: 12px
+  padding: 3px 3px 3px 0
+  text-align: left
+
+/* make unaccepted answers grayed out
+
+.answer
+  color: gray
+
+.accepted-answer
+  color: black
+
+.question-sources
+  font-size: 13px
+  line-height: 20px
+  min-height: 50px
+
+.short-summary .counts
+  /*margin-top: 14px;
+
+#logo
+  left: 345px
+  position: absolute
+  width: 270px
+  padding-top: 10px
+
+#nav
+  float: right
+  margin: 90px 0px 0px 0px
+  width: 480px
+
+.promise_kept
+  background-image: url(../images/status/status_0000_pk.jpg)
+
+.compromise
+  background-image: url(../images/status/status_0001_co.jpg)
+
+.promise_broken
+  background-image: url(../images/status/status_0002_pb.jpg)
+
+.stalled
+  background-image: url(../images/status/status_0003_st.jpg)
+
+.in_the_works
+  background-image: url(../images/status/status_0004_it.jpg)
+
+.not_yet_rated
+  background-image: url(../images/status/status_0005_no.jpg)
+
+#status-box
+  width: 100%
+  height: 100px
+  margin: 0
+  padding: 0
+  background-repeat: no-repeat
+  background-position: right
+
+ul
+  &.filter li, &.scorecard li
+    line-height: 2.5em
+    list-style: none
+    border-bottom: dotted 1px black
+  &.filter
+    li
+      padding-bottom: 10px
+    margin-left: 0px
+  &.scorecard
+    margin-left: 0px
+
+div.scorecard
+  width: 200px
+  float: right
+  padding: 10px
+
+.scorecard-count
+  float: right
+
+div.intro
+  float: left
+  width: 450px
+
+.status-box
+  height: 150px
+
+#nav a
+  background-color: transparent
+  padding: 0 6px 3px
+
+#nav a.on
+  height: 24px
+  background-color: gray
+  border-color: gray
+
+#nav
+  margin-top: 0px
+
+#logo
+
+#roof
+  display: none
+
+#searchBar
+  padding: 0 0 0 10%
+  text-align: left
+  height: 56px
+  background-color: #a9a9a9
+  padding: 0
+  width: 990px
+  border: none
+
+.headNormal
+  border-bottom: 1px dotted #777
+
+#headerWrapper
+  background-color: #a9a9a9
+
+#searchWrapper
+  background-color: #EEE
+
+input#keywords.searchInput
+  width: 300px
+
+span.search-box
+  background-color: black
+  padding: 7px 3px 10px 4px
+
+span.logo
+  font-family: "Segoe WP"
+  font-size: 150%
+  font-weight: bold
+  +single-text-shadow
+  color: white
+  background-color: #a52a2a
+  vertical-align: middle
+  padding-top: 4px
+  padding-bottom: 4px
+  padding-left: 8px
+  padding-right: 4px
+
+.top
+  padding-top: 27px
+
+.boxC
+  background-color: transparent
+
+.short-summary h2 a
+  color: brown
+
+// AUTOCOMPLETE
+
+.ui-autocomplete-category
+  font-weight: bold
+  padding: .2em .4em
+  margin: .8em 0 .2em
+  line-height: 1.5
+
+ul.ui-autocomplete
+  background-color: white
+  width: 500px !important
+  list-style-type: none
+  //padding: 10px
+  margin-left: 16px
+  border: 1px solid #CCC
+
+#search-container
+  background-color: #EEE
+  //padding: 0 0 0 10%
+  padding-left: 168px
+  width: 990px
+
+.ui-state-hover
+  background-color: #DFEAF4
+
+.ui-menu .ui-menu-item a
+  text-decoration: none
+  display: block
+  padding: 0.5em 1em
+  line-height: 1.5
+  zoom: 1
+  cursor: default
+
+.question-body p
+  font-size: 18px
